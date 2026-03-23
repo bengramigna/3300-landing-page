@@ -1,11 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ben Gramigna | Business Analytics Professional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="stylesheet.css" />
 </head>
 <body>
-    <h1>Hello World</h1>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <span class="nav-logo">Ben Gramigna</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1 id="hero-name">Ben Gramigna</h1>
+          <p class="hero-tagline">Business Analytics Student&nbsp;&nbsp;|&nbsp;&nbsp;Aspiring Business Professional&nbsp;&nbsp;|&nbsp;&nbsp;Passionate About Data &amp; Sports</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            <a href="#projects" class="btn btn-secondary">View My Work</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="images/Composite02.JPG" alt="Ben Gramigna professional headshot" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-light" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading" class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a <strong>Business Analytics and Information Systems</strong> student at the University of Iowa, graduating in May 2026 with a minor in Sports and Recreation Management. My academic foundation blends analytical rigor with a strong business sensibility — giving me the ability to translate data into decisions that matter.</p>
+            <p>I'm passionate about the intersection of <strong>analytics, finance, and business strategy</strong>. Whether it's building regression models, automating financial reporting, or leading a team, I bring curiosity and drive to everything I do.</p>
+            <p>I'm actively seeking entry-level roles and internships in <strong>analytics, finance, and general business</strong> — primarily in the Chicago area, with openness to opportunities in Florida and Boston.</p>
+          </div>
+          <div class="about-details">
+            <div class="detail-card">
+              <div class="detail-label">University</div>
+              <div class="detail-value">University of Iowa</div>
+            </div>
+            <div class="detail-card">
+              <div class="detail-label">Degree</div>
+              <div class="detail-value">B.B.A., Business Analytics &amp; Information Systems</div>
+            </div>
+            <div class="detail-card">
+              <div class="detail-label">Minor</div>
+              <div class="detail-value">Sports &amp; Recreation Management</div>
+            </div>
+            <div class="detail-card">
+              <div class="detail-label">GPA</div>
+              <div class="detail-value">3.22 / 4.0</div>
+            </div>
+            <div class="detail-card">
+              <div class="detail-label">Graduation</div>
+              <div class="detail-value">May 2026</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-navy" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading" class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skills-group">
+            <h3 class="skills-group-title">Tools &amp; Software</h3>
+            <ul class="skill-list">
+              <li class="skill-tag">Excel</li>
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">Microsoft Access</li>
+              <li class="skill-tag">Tableau</li>
+              <li class="skill-tag">Power BI</li>
+            </ul>
+          </div>
+          <div class="skills-group">
+            <h3 class="skills-group-title">Analytical Techniques</h3>
+            <ul class="skill-list">
+              <li class="skill-tag">Regression Analysis</li>
+              <li class="skill-tag">Forecasting</li>
+              <li class="skill-tag">Data Visualization</li>
+              <li class="skill-tag">Time-Series Analysis</li>
+              <li class="skill-tag">Data Modeling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-light" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+          <article class="project-card" aria-label="Sport Difficulty Regression Project">
+            <div class="project-header">
+              <span class="project-tag">Regression Analysis</span>
+            </div>
+            <h3 class="project-title">Sport Difficulty Regression</h3>
+            <p class="project-desc">Performed multivariable regression analysis in Excel to identify the key factors affecting the "difficulty score" of different sports, achieving a 95% confidence level. Used scatter plots, density plots, and bar charts to communicate findings clearly, and addressed multicollinearity by systematically testing different variable combinations.</p>
+            <ul class="project-skills">
+              <li>Excel</li>
+              <li>Regression Analysis</li>
+              <li>Data Visualization</li>
+              <li>Statistical Modeling</li>
+            </ul>
+          </article>
+
+          <article class="project-card" aria-label="Financial Dashboard Automation">
+            <div class="project-header">
+              <span class="project-tag">Dashboard &amp; Automation</span>
+            </div>
+            <h3 class="project-title">Financial Dashboard Automation</h3>
+            <p class="project-desc">Developed an automated financial reporting dashboard for First Security Bank, streamlining how performance data was collected, processed, and presented. Reduced manual reporting time by automating data pipelines and building dynamic visualizations that gave stakeholders faster, clearer insight into key financial metrics.</p>
+            <ul class="project-skills">
+              <li>Excel</li>
+              <li>Power BI</li>
+              <li>Data Modeling</li>
+              <li>Automation</li>
+            </ul>
+          </article>
+
+          <article class="project-card" aria-label="Data Visualization and Analysis Project">
+            <div class="project-header">
+              <span class="project-tag">Data Visualization</span>
+            </div>
+            <h3 class="project-title">Data Visualization &amp; Analysis</h3>
+            <p class="project-desc">Designed and built a comprehensive data visualization and analysis project that transformed raw datasets into clear, actionable insights. Applied data cleaning, exploratory analysis, and storytelling techniques to present findings in a format accessible to both technical and non-technical audiences.</p>
+            <ul class="project-skills">
+              <li>Tableau</li>
+              <li>Python</li>
+              <li>Exploratory Analysis</li>
+              <li>Storytelling with Data</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-white" aria-labelledby="experience-heading">
+      <div class="container">
+        <h2 id="experience-heading" class="section-title">Experience &amp; Leadership</h2>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">May – Aug 2025</span>
+              <span class="timeline-location">Naperville, IL</span>
+            </div>
+            <div class="timeline-content">
+              <h3 class="timeline-role">Maintenance Operations Intern</h3>
+              <p class="timeline-org">Naperville Country Club</p>
+              <ul class="timeline-bullets">
+                <li>Supported daily operations by reviewing maintenance priorities and communicating updates to supervisors during morning briefings, contributing insights to improve workflow efficiency.</li>
+                <li>Collaborated with grounds staff to implement preventive maintenance tasks, reducing unexpected equipment downtime.</li>
+                <li>Monitored inventory levels and helped streamline the restocking process by reporting shortages proactively.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">May – Aug 2024</span>
+              <span class="timeline-location">Oakbrook, IL</span>
+            </div>
+            <div class="timeline-content">
+              <h3 class="timeline-role">Sales Intern</h3>
+              <p class="timeline-org">Jonathan Wesley Inc</p>
+              <ul class="timeline-bullets">
+                <li>Analyzed energy service plans to identify optimal cost-saving options, helping customers reduce their electric bills.</li>
+                <li>Mentored 4 new sales team members on best practices, improving team-wide performance.</li>
+                <li>Achieved 115+ sales and earned 2 promotions over the course of the internship.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan 2023 – Present</span>
+              <span class="timeline-location">Iowa City, IA</span>
+            </div>
+            <div class="timeline-content">
+              <h3 class="timeline-role">Member — Merchandise &amp; Recruitment Chair</h3>
+              <p class="timeline-org">Phi Gamma Delta Social Fraternity</p>
+              <ul class="timeline-bullets">
+                <li>Led as Merchandise Chair, overseeing a five-figure budget to design and produce custom apparel, accessories, and promotional items.</li>
+                <li>Managed as Recruitment Chair, advancing campaigns that resulted in a significant increase in new member enrollment.</li>
+                <li>Participated in the Rivalry Run charity event, personally raising $300 toward a chapter total of $12,281 while running 175 miles for the USO.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-navy" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading" class="section-title">Get in Touch</h2>
+        <p class="contact-intro">I'm currently looking for entry-level opportunities in analytics, finance, and business. If you'd like to connect or learn more about my background, I'd love to hear from you.</p>
+        <div class="contact-links">
+          <a href="mailto:bengramigna@gmail.com" class="contact-card" aria-label="Send Ben an email">
+            <div class="contact-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">bengramigna@gmail.com</div>
+          </a>
+          <a href="https://www.linkedin.com/in/ben-gramigna/" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Visit Ben's LinkedIn profile">
+            <div class="contact-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">ben-gramigna</div>
+          </a>
+          <a href="https://github.com/bengramigna" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Visit Ben's GitHub profile">
+            <div class="contact-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">bengramigna</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Ben Gramigna. Built for BAIS:3300 Digital Product Management.</p>
+    </div>
+  </footer>
+
 </body>
-</html> 
+</html>
